@@ -1,5 +1,5 @@
 ActiveAdmin.register Student do
-  permit_params :name,:student_number,:school_id
+  permit_params :name,:student_number,:image,:school_id
 
   # See permitted parameters documentation:
   # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
